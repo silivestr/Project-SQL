@@ -26,6 +26,7 @@ VALUES
 INSERT INTO public.employees 
 (full_name, birth_date, position_id, salary_id, department_id, hire_date, status, last_updated, supervisor_id)
 VALUES
+    ('Алексеев Сергей', '1996-01-26', 1, 1, 1, '2023-01-10', TRUE, CURRENT_DATE, NULL), 
     ('Иван Иванов', '1998-02-15', 1, 1, 1, '2023-01-10', TRUE, CURRENT_DATE, NULL), 
     ('Пётр Петров', '1992-05-10', 2, 2, 2, '2022-05-01', TRUE, CURRENT_DATE, 1),   
     ('Сергей Сергеев', '1985-09-25', 3, 3, 3, '2020-11-15', TRUE, CURRENT_DATE, NULL), 
